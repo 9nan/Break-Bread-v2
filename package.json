@@ -1,0 +1,32 @@
+{
+  "name": "breakbread",
+  "version": "1.0.0",
+  "description": "A Discord fun and moderation bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint .",
+    "build": "npm run lint"
+  },
+  "keywords": [],
+  "author": "itznan",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^2.2.0",
+    "@discordjs/voice": "^0.18.0",
+    "axios": "^1.8.4",
+    "canvas": "^3.1.0",
+    "discord-api-types": "^0.37.76",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "opusscript": "^0.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=23"
+  }
+}
