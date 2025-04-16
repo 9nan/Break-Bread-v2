@@ -43,8 +43,8 @@ BreakBread is a versatile Discord bot designed to enhance your server experience
 ### Setup Steps
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/breakbread.git
-   cd breakbread
+   https://github.com/9nan/Break-Bread-v2
+   cd Break-Bread-v2
    ```
 
 2. Install dependencies
@@ -77,7 +77,7 @@ BreakBread is a versatile Discord bot designed to enhance your server experience
 
 4. Start the bot
    ```bash
-   npm start
+   node index.js
    ```
 
 ## 🤖 Commands
@@ -126,16 +126,6 @@ BreakBread uses Discord's slash command system for intuitive interaction.
 
 ## 🛠️ Development
 
-### Local Development
-- Run in development mode with automatic restarts:
-  ```bash
-  npm run dev
-  ```
-
-- Lint your code:
-  ```bash
-  npm run lint
-  ```
 
 ### Performance Optimizations
 - **Command Caching**: Frequently used commands use smart caching for faster responses
@@ -168,10 +158,6 @@ breakbread/
 ## 📄 License
 
 This project is licensed under the MIT License.
-
-## 🔗 Links
-
-- [Invite Bot to Your Server](https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=8&scope=bot%20applications.commands)
 
 ## 👥 Contributing
 
@@ -221,4 +207,5 @@ If you're encountering issues:
 
 <div align="center">
   Made with ❤️ by itznan
+  Discord itz._.nan_
 </div> 
